@@ -11,6 +11,7 @@
 ### 4. 盒子模型
 ![盒子模型](/images/1.JPG)
 ### 5. CSS样式(http://www.w3school.com.cn/css3/index.asp)
+***
 ## DAY2
 ### 1. 锚点（a）（http://www.w3school.com.cn/html/html_links.asp）
 W3CSchool中讲的name属性在HTML5中已经被废弃，可以用id属性替代。
