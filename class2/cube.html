@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>立方体</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: #e9e9e9;
+        }
+        @keyframes outerScroll {
+            from{transform: rotateX(-33.5deg)rotateY(45deg)translateZ(-50px);}
+            to{transform: rotateX(-33.5deg)rotateY(135deg)translateZ(-50px);}
+        }
+
+        .container{
+            position: relative;
+            width: 100px;
+            height: 100px;
+            margin: 100px auto;
+            transform-style: preserve-3d;
+            /*animation: outerScroll 3s infinite;*/
+            /*overflow: hidden;*/
+        }
+        .outer{
+            transform-style: preserve-3d;
+            transform: rotateX(-33.5deg)rotateY(45deg);
+            animation: outerScroll 3s infinite;
+        }
+        .outer div{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            border: 1px #212121 solid;
+            background: radial-gradient(transparent 40%, #bcbcbc) !important;
+        }
+        .outer :nth-child(1){
+            background-color: #cccccc;
+            transform:  translate3d(0px,0px,100px);
+            opacity:0.7;
+        }
+        .outer :nth-child(2){
+            background-color: #42db32;
+            transform: rotateX(90deg) translate3d(0,50px,50px);
+            opacity:0.7;
+        }
+        .outer :nth-child(3){
+            background-color: #cc7e42;
+            opacity:0.7;
+        }
+        .outer :nth-child(4){
+            background-color: #cc40a6;
+            transform: rotateX(90deg) translate3d(0,50px,-50px);
+            opacity:0.7;
+        }
+        .outer :nth-child(5){
+            background-color: #3f89cc;
+            transform: rotateY(90deg) translate3d(-50px,0px,-50px);
+            opacity:0.7;
+        }
+        .outer :nth-child(6){
+            background-color: #31ccc4;
+            transform: rotateY(90deg) translate3d(-50px,0,50px);
+            opacity:0.7;
+        }
+
+        @keyframes innerScroll {
+            from{transform: rotateX(-33.5deg)rotateY(45deg)translateZ(-25px);}
+            to{transform: rotateX(-33.5deg)rotateY(-45deg)translateZ(-25px);}
+        }
+        .inner{
+            position: relative;
+            width: 50px;
+            height: 50px;
+            transform-style: preserve-3d;
+            left: 25px;
+            top: 15px;
+            /*transform: translate3d(25px,25px,25px);*/
+            animation: innerScroll 3s infinite;
+        }
+        .inner div{
+            width: 50px;
+            height: 50px;
+            border: 1px #212121 solid;
+            position: absolute;
+            background: radial-gradient(transparent 40%, #bcbcbc) !important;
+        }
+        .inner :nth-child(1){
+            background-color: #cccccc;
+            transform:  translate3d(0px,0px,50px);
+            opacity:0.7;
+        }
+        .inner :nth-child(2){
+            background-color: #42db32;
+            transform: rotateX(90deg) translate3d(0,25px,25px);
+            opacity:0.7;
+        }
+        .inner :nth-child(3){
+            background-color: #cc7e42;
+            opacity:0.7;
+        }
+        .inner :nth-child(4){
+            background-color: #cc40a6;
+            transform: rotateX(90deg) translate3d(0,25px,-25px);
+            opacity:0.7;
+        }
+        .inner :nth-child(5){
+            background-color: #3f89cc;
+            transform: rotateY(90deg) translate3d(-25px,0px,-25px);
+            opacity:0.7;
+        }
+        .inner :nth-child(6){
+            background-color: #31ccc4;
+            transform: rotateY(90deg) translate3d(-25px,0,25px);
+            opacity:0.7;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="outer">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <div class="inner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+</body>
+</html>
