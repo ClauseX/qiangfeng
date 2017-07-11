@@ -2,18 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>自我介绍</title>
+    <title>电子相册</title>
     <style>
         *{
             margin: 0;
             padding:0;
         }
+        img{
+            display: block;
+        }
+        #container{
+            position: relative;
+            width: 400px;
+            height: 300px;
+            margin: 100px auto;
+            padding: 20px;
+            background-color: #212121;
+            box-shadow: 2px 4px 8px #212121;
+        }
+        #left{
+            width: 280px;
+            height: 196px;
+            position: fixed;
+            margin: 50px auto auto 20px;
+            overflow: hidden;
+        }
+        #right{
+            margin-left: 320px;
+            height: 196px;
+            margin-top:50px;
+            overflow-y: scroll;
+        }
+        #right ul li{
+            display: block;
+            list-style: none;
+            margin: 2px auto;
+        }
+        h3{
+            color: white;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
-<h1>自我介绍</h1>
-<h2>我叫李永升</h2>
-<h3>我来自云南大学</h3>
-<h4>我喜欢打球</h4>
+<div id="container">
+    <h3>电子相册</h3>
+    <div id="left">
+        <ul>
+            <li id="mn1"><img src="photo/mn1.jpg" alt=""></li>
+            <li id="mn2"><img src="photo/mn2.jpg" alt=""></li>
+            <li id="mn3"><img src="photo/mn3.jpg" alt=""></li>
+            <li id="mn4"><img src="photo/mn4.jpg" alt=""></li>
+            <li id="mn5"><img src="photo/mn5.jpg" alt=""></li>
+            <li id="mn6"><img src="photo/mn6.jpg" alt=""></li>
+            <li id="mn7"><img src="photo/mn7.jpg" alt=""></li>
+            <li id="mn8"><img src="photo/mn8.jpg" alt=""></li>
+        </ul>
+    </div>
+    <div id="right">
+        <ul>
+            <li><a href="#mn1"><img src="photo/c1.jpg" alt=""></a></li>
+            <li><a href="#mn2"><img src="photo/c2.jpg" alt=""></a></li>
+            <li><a href="#mn3"><img src="photo/c3.jpg" alt=""></a></li>
+            <li><a href="#mn4"><img src="photo/c4.jpg" alt=""></a></li>
+            <li><a href="#mn5"><img src="photo/c5.jpg" alt=""></a></li>
+            <li><a href="#mn6"><img src="photo/c6.jpg" alt=""></a></li>
+            <li><a href="#mn7"><img src="photo/c7.jpg" alt=""></a></li>
+            <li><a href="#mn8"><img src="photo/c8.jpg" alt=""></a></li>
+            <li><a href="#mn1"><img src="photo/c1.jpg" alt=""></a></li>
+            <li><a href="#mn2"><img src="photo/c2.jpg" alt=""></a></li>
+            <li><a href="#mn3"><img src="photo/c3.jpg" alt=""></a></li>
+            <li><a href="#mn4"><img src="photo/c4.jpg" alt=""></a></li>
+            <li><a href="#mn5"><img src="photo/c5.jpg" alt=""></a></li>
+            <li><a href="#mn6"><img src="photo/c6.jpg" alt=""></a></li>
+            <li><a href="#mn7"><img src="photo/c7.jpg" alt=""></a></li>
+            <li><a href="#mn8"><img src="photo/c8.jpg" alt=""></a></li>
+        </ul>
+    </div>
+</div>
 </body>
 </html>
