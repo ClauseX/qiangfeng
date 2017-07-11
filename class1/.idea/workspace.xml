@@ -15,24 +15,27 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="338">
-                <caret line="12" column="55" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="55" />
-                <folding />
+              <first_editor relative-caret-position="774">
+                <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+                <folding>
+                  <marker date="1499745097149" expanded="true" signature="610:723" ph="{...}" />
+                  <marker date="1499745097149" expanded="true" signature="733:884" ph="{...}" />
+                </folding>
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="day01.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="day01.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day01.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+            <state relative-caret-position="305">
+              <caret line="24" column="25" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="24" selection-end-column="25" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
@@ -74,8 +77,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/../readme.md" />
         <option value="$PROJECT_DIR$/day01.html" />
+        <option value="$PROJECT_DIR$/../readme.md" />
       </list>
     </option>
   </component>
@@ -231,12 +234,12 @@
       <workItem from="1499669102987" duration="10245000" />
       <workItem from="1499683929210" duration="45000" />
       <workItem from="1499692277185" duration="14000" />
-      <workItem from="1499735027708" duration="6892000" />
+      <workItem from="1499735027708" duration="9604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18992000" />
+    <option name="totallyTimeSpent" value="21704000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
@@ -284,7 +287,10 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="30">
             <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-            <folding />
+            <folding>
+              <marker date="1499745097149" expanded="true" signature="610:723" ph="{...}" />
+              <marker date="1499745097149" expanded="true" signature="733:884" ph="{...}" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -328,7 +334,10 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="30">
             <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-            <folding />
+            <folding>
+              <marker date="1499745097149" expanded="true" signature="610:723" ph="{...}" />
+              <marker date="1499745097149" expanded="true" signature="733:884" ph="{...}" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -372,7 +381,10 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="30">
             <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-            <folding />
+            <folding>
+              <marker date="1499745097149" expanded="true" signature="610:723" ph="{...}" />
+              <marker date="1499745097149" expanded="true" signature="733:884" ph="{...}" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -416,7 +428,10 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
+            <folding>
+              <marker date="1499745097149" expanded="true" signature="610:723" ph="{...}" />
+              <marker date="1499745097149" expanded="true" signature="733:884" ph="{...}" />
+            </folding>
           </first_editor>
           <second_editor />
         </state>
@@ -495,23 +510,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="338">
-            <caret line="12" column="55" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="55" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/photo/电子相册.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -524,10 +522,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/day01.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="65" column="9" lean-forward="false" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+        <state relative-caret-position="305">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="24" selection-end-column="25" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="774">
+            <caret line="45" column="30" lean-forward="false" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+            <folding>
+              <marker date="1499745097149" expanded="true" signature="610:723" ph="{...}" />
+              <marker date="1499745097149" expanded="true" signature="733:884" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="40" lean-forward="true" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+          <folding>
+            <marker date="1499745097149" expanded="true" signature="610:723" ph="{...}" />
+            <marker date="1499745097149" expanded="true" signature="733:884" ph="{...}" />
           </folding>
         </state>
       </provider>
